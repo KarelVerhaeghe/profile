@@ -13,15 +13,30 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed|Titillium+Web" rel="stylesheet">
 </head>
+
 <body>
   <div class="container">
+  <div id="sidebar">
+    <ul class="list-inline text-center" id="sidebar-icon-postion">
+      <li><a href="#find-me">
+        <i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i>
+      </a></li>
+      <li><a href="#movie-list">
+        <i class="fa fa-film fa-2x" aria-hidden="true"></i>
+      </a></li>
+      <li><a href="#info">
+        <i class="fa fa-info fa-2x" aria-hidden="true"></i>
+      </a></li>
+    </ul>
+  </div>
+  <div id="page-content">
   <div class="card text-center">
   <img src="images/profile.png" alt="Karel Verhaeghe" class="img-circle"></img>
   <h1>Karel Verhaeghe</h1>
     <h2>A procrastinating generalist</h2>
       <p>blablablablabla</p>
   </div>
-  <div class="card text-center">
+  <div class="card text-center" id="find-me">
     <h2>Where to find me</h2>
       <ul class="list-inline">
         <li><a href="https://www.facebook.com/karel.verhaeghe.9" target="_blank">
@@ -35,7 +50,7 @@
         </a></li>
       </ul>
   </div>
-  <div class="card text-center">
+  <div class="card text-center" id="movie-list">
     <h2>What to watch</h2>
       <table>
         <tr>
@@ -73,9 +88,10 @@
         </tr>
       </table>
   </div>
-  <div class="card text-center">
+  <div class="card text-center" id="info">
     <h2>What this is all about</h2>
       <p>blablablablabla</p>
+  </div>
   </div>
   </div>
 </body>
